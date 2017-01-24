@@ -1,0 +1,44 @@
+
+<html>
+<head><title>My first Javascript</title></head>
+<body>
+<script type="text/javascript">
+
+//for 1 line of comment, use this 
+
+/*for multiple lines
+of comments you can use this */	
+	
+var season="Fall";
+	
+	document.write("This is my first javascript line<br />");
+	document.write("<p>this is my paragraph about js</p>"); 
+	
+	document.write(season);
+	//document.write("<br />");
+	document.write("<br />" + Date());
+
+	var food = prompt("Name your favorite food","chicken alfredo");
+	document.write("<br />My favorite food is a burger" + food); 
+	
+	var friday = prompt("What activity did you do on friday","movies");
+	var sat1 = prompt("What is 1 of the 2 activities you did on sat?");
+	var sat2 = prompt("what is 2 of the 2 activities you did on sat?");
+	var sun = prompt("What tv shows did you watch on sunday?","football");
+	
+	/*
+	on friday I stayed at home. On sat, I did 2 activities, worked and visited eastern state penitentiary. 
+	On sunday, I sat at home and watched the big bang theory.
+	*/
+	
+	document.write("<br />On friday I went " + fri + ". On sat, I did 2 ");
+	document.write("activities, " + sat1);
+	document.write(" and <br />" + sat2 + ". On sunday, I sat at home and");
+	document.write("watched " + sun + ".");	
+	
+</script>
+
+
+
+</body>
+</html>
